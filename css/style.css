@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    /* Primary Colors */
+    --violet: hsl(257, 40%, 49%);
+    --soft-magneta: hsl(300, 69%, 71%);
+}
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    background: var(--violet) url('../images/bg-mobile.svg') no-repeat left top;
+    background-size: 100% auto;
+    max-width: 480px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+button {
+    display: inline-block;
+}
+
+/* Huddle Landing Page Styles */
+.card__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    width: 80%;
+    margin: 2rem auto;
+}
+.huddle__logo {
+    width: 130px;
+    margin-bottom: 4rem;
+}
+.huddle__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.huddle__description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .959rem;
+    margin-bottom: 2rem;
+}
+.huddle__btn {
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    padding: .8rem 5rem;
+    border-radius: 24px;
+    color: var(--violet);
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 5px 8px 0 hsla(0, 0%, 15%, 0.45);
+}
+.huddle__socials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.social__icon {
+    width: 20px;
+}
