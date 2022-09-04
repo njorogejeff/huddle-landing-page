@@ -64,7 +64,7 @@ button {
     color: var(--violet);
     font-family: 'Poppins', sans-serif;
     font-size: .8rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4.5rem;
     box-shadow: 0 5px 8px 0 hsla(0, 0%, 15%, 0.45);
 }
 .huddle__socials {
@@ -75,5 +75,11 @@ button {
     gap: 1rem;
 }
 .social__icon {
-    width: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
